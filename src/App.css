@@ -1,0 +1,43 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.CashDiv {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 5px;
+    background-color: teal;
+    color: white;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: rgb(57, 165, 165);
+    cursor: pointer;
+}
+
+.clientsDiv {
+    font-size: 35px;
+    margin: 20px;
+}
+
+.nameDiv {
+    font-size: 30px;
+    margin: 20px;
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+
+.nameDiv:hover {
+    cursor: pointer;
+    box-shadow: 0px 2px 4px 1px black;
+}
